@@ -128,9 +128,8 @@ Please make sure your code passes the vibe check ✅
 
 ## 📄 License
 
-MIT License - see [LICENSE](LICENSE) file for details.
+See [LICENSE](LICENSE) file for details.
 
-*Translation: Do whatever you want with this code, but don't blame us if you ape in a verified rug pull contract.*
 
 ## 🆘 Support
 
