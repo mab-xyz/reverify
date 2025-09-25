@@ -2,7 +2,7 @@
 """
 Ethereum Contract Source Code Verification Script
 https://github.com/mab-xyz/reverify
-License: MIT
+License: AGPL-3.0
 """
 
 import argparse

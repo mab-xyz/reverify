@@ -2,7 +2,6 @@
 
 *"Because trust, but verify... and then reverify... and maybe verify once more just to be sure"*
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![Web3](https://img.shields.io/badge/Web3-Ready-orange.svg)](#)
 [![Ethereum](https://img.shields.io/badge/Ethereum-Compatible-purple.svg)](#)
 
