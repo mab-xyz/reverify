@@ -93,7 +93,7 @@ First 100 chars of deployed: 608060405234801561001057600080fd5b50600436106101a95
 
 Sourcify and Blockscout are the only two known open-source verifier implementations today:
 - [Sourcify](https://sourcify.dev/) – [verification](
-https://github.com/argotorg/sourcify/blob/staging/packages/lib-sourcify/src/Verification/Verification.ts) through [bytecode transformation](https://github.com/argotorg/sourcify/blob/staging/packages/lib-sourcify/src/Verification/Transformations.ts#L200)
+https://github.com/argotorg/sourcify/blob/staging/packages/lib-sourcify/src/Verification/Verification.ts) through [bytecode transformation](https://github.com/argotorg/sourcify/blob/staging/packages/lib-sourcify/src/Verification/Transformations.ts#L200), in Typescript
 - [Blockscout](https://github.com/blockscout/blockscout) – explorer with [verification in Elixir](https://github.com/blockscout/blockscout/blob/03e4b57557f104c55830d62d3b2905bb603fca44/apps/explorer/lib/explorer/smart_contract/solidity/verifier.ex
 )
 
