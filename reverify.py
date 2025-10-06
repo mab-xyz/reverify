@@ -27,7 +27,7 @@ login_keyring=keyring.get_keyring()
 class ContractVerifier:
     def __init__(self, api_key):
         self.api_key = api_key
-        self.base_url = "https://api.etherscan.io/api"
+        self.base_url = "https://api.etherscan.io/v2/api?chainid=1"
         
     def get_contract_source(self, address):
         """Download contract source code from Etherscan, with caching."""
