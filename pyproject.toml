@@ -30,7 +30,7 @@ classifiers = [
 dependencies = [
     "requests>=2.25.0",
     "py-solc-x>=2.0.0",
-    "evmdasm>=0.1.12",
+    "evmdasm>=0.1.10",
     "cbor2>=5.4.0",
     "keyring>=23.0.0",
 ]
@@ -43,9 +43,5 @@ Issues = "https://github.com/mab-xyz/reverify/issues"
 [project.scripts]
 reverify = "reverify:main"
 
-[tool.setuptools.packages.find]
-where = ["."]
-include = ["reverify*"]
-
-[tool.setuptools.py-modules]
-reverify = "reverify"
+[tool.setuptools]
+py-modules = ["reverify"]
