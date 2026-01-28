@@ -397,7 +397,7 @@ class ContractVerifier:
             print("✅ VERIFICATION SUCCESSFUL: Source code matches deployed bytecode")
             # Log success to cache
             with open(success_file, 'w') as f:
-                f.write(f"Verification successful at {datetime.datetime.now(datetime.UTC).isoformat()}\n")
+                f.write(f"Verification successful at {datetime.datetime.now(datetime.timezone.utc).isoformat()}\n")
                 f.write(f"Contract: {contract_data['ContractName']}\n")
                 f.write(f"Compiler: {contract_data['CompilerVersion']}\n")
             
